@@ -3,7 +3,7 @@
 ####################################################################################
 
 
-## Description
+## Game rules and description
 
 
 The Card Game Set is a card game where a group of players try to identify a "set" of cards from those placed
@@ -45,7 +45,7 @@ Following are the API that is included in this particular project :
 you removed from the board.
 
 
--How to run
+## How to run
 
 > Pre requisites :
 
@@ -70,7 +70,7 @@ export JAVA_HOME=$(<path to JDK 1.8 Home>)
 
 -Access to Terminal/Command Prompt
 
-> Running set game :
+## Running set game :
 
 java -jar set.jar
 
