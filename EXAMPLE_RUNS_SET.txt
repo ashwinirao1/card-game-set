@@ -1,0 +1,463 @@
+####################################################################################
+SAMPLE RUNS FOR CARD GAME SET
+####################################################################################
+Ashwini-Rao:Home$ ls
+README.txt	set.jar
+Ashwini-Rao:Home$ java -jar set.jar 
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.3.RELEASE)
+
+Please enter any one of the options below to proceed (1,2 or 3): 
+[1] - Check if three cards are a set 
+[2] - Check if there is a set present in a board of cards 
+[3] - Play a sample set game !!
+1
+################### Enter card 1 details : ###################
+Enter card color [0 (for red), 1(for green), 2 (for purple)]: 
+0
+Enter card number [0 (for one), 1(for two), 2 (for three)]: 
+1
+Enter card shape [0 (for diamond), 1(for squiggle), 2 (for oval)]: 
+2
+Enter card shade [0 (for solid), 1(for empty), 2 (for striped)]: 
+1
+################### Enter card 2 details : ###################
+Enter card color [0 (for red), 1(for green), 2 (for purple)]: 
+1
+Enter card number [0 (for one), 1(for two), 2 (for three)]: 
+2
+Enter card shape [0 (for diamond), 1(for squiggle), 2 (for oval)]: 
+1
+Enter card shade [0 (for solid), 1(for empty), 2 (for striped)]: 
+0
+################### Enter card 3 details : ###################
+Enter card color [0 (for red), 1(for green), 2 (for purple)]: 
+0
+Enter card number [0 (for one), 1(for two), 2 (for three)]: 
+0
+Enter card shape [0 (for diamond), 1(for squiggle), 2 (for oval)]: 
+0
+Enter card shade [0 (for solid), 1(for empty), 2 (for striped)]: 
+1
+################### Entered input cards : ###################
+   ________________________________
+   | Number| Color| Shape   | Shade|
+   |===============================|
+1. | TWO   | RED  | OVAL    | EMPTY|
+2. | THREE | GREEN| SQUIGGLE| SOLID|
+3. | ONE   | RED  | DIAMOND | EMPTY|
+################### Result ###################: NOT A SET
+Ashwini-Rao:Home$ java -jar set.jar 
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.3.RELEASE)
+
+Please enter any one of the options below to proceed (1,2 or 3): 
+[1] - Check if three cards are a set 
+[2] - Check if there is a set present in a board of cards 
+[3] - Play a sample set game !!
+1
+################### Enter card 1 details : ###################
+Enter card color [0 (for red), 1(for green), 2 (for purple)]: 
+0
+Enter card number [0 (for one), 1(for two), 2 (for three)]: 
+1
+Enter card shape [0 (for diamond), 1(for squiggle), 2 (for oval)]: 
+2
+Enter card shade [0 (for solid), 1(for empty), 2 (for striped)]: 
+1
+################### Enter card 2 details : ###################
+Enter card color [0 (for red), 1(for green), 2 (for purple)]: 
+0
+Enter card number [0 (for one), 1(for two), 2 (for three)]: 
+2
+Enter card shape [0 (for diamond), 1(for squiggle), 2 (for oval)]: 
+2
+Enter card shade [0 (for solid), 1(for empty), 2 (for striped)]: 
+1
+################### Enter card 3 details : ###################
+Enter card color [0 (for red), 1(for green), 2 (for purple)]: 
+0
+Enter card number [0 (for one), 1(for two), 2 (for three)]: 
+0
+Enter card shape [0 (for diamond), 1(for squiggle), 2 (for oval)]: 
+2
+Enter card shade [0 (for solid), 1(for empty), 2 (for striped)]: 
+1
+################### Entered input cards : ###################
+   _____________________________
+   | Number| Color| Shape| Shade|
+   |============================|
+1. | TWO   | RED  | OVAL | EMPTY|
+2. | THREE | RED  | OVAL | EMPTY|
+3. | ONE   | RED  | OVAL | EMPTY|
+################### Result ###################: A SET
+Ashwini-Rao:Home$ java -jar set.jar 
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.3.RELEASE)
+
+Please enter any one of the options below to proceed (1,2 or 3): 
+[1] - Check if three cards are a set 
+[2] - Check if there is a set present in a board of cards 
+[3] - Play a sample set game !! 
+2
+################### Enter number of cards on the boards to check a set from (at least three cards required) : ###################
+4
+################### Enter card 1 details : ###################
+Enter card color [0 (for red), 1(for green), 2 (for purple)]: 
+0
+Enter card number [0 (for one), 1(for two), 2 (for three)]: 
+1
+Enter card shape [0 (for diamond), 1(for squiggle), 2 (for oval)]: 
+1
+Enter card shade [0 (for solid), 1(for empty), 2 (for striped)]: 
+2
+################### Enter card 2 details : ###################
+Enter card color [0 (for red), 1(for green), 2 (for purple)]: 
+1
+Enter card number [0 (for one), 1(for two), 2 (for three)]: 
+1
+Enter card shape [0 (for diamond), 1(for squiggle), 2 (for oval)]: 
+2
+Enter card shade [0 (for solid), 1(for empty), 2 (for striped)]: 
+1
+################### Enter card 3 details : ###################
+Enter card color [0 (for red), 1(for green), 2 (for purple)]: 
+1
+Enter card number [0 (for one), 1(for two), 2 (for three)]: 
+1
+Enter card shape [0 (for diamond), 1(for squiggle), 2 (for oval)]: 
+1
+Enter card shade [0 (for solid), 1(for empty), 2 (for striped)]: 
+1
+################### Enter card 4 details : ###################
+Enter card color [0 (for red), 1(for green), 2 (for purple)]: 
+0
+Enter card number [0 (for one), 1(for two), 2 (for three)]: 
+1
+Enter card shape [0 (for diamond), 1(for squiggle), 2 (for oval)]: 
+1
+Enter card shade [0 (for solid), 1(for empty), 2 (for striped)]: 
+2
+################### Entered input cards : ###################
+   __________________________________
+   | Number| Color| Shape   | Shade  |
+   |=================================|
+1. | TWO   | RED  | SQUIGGLE| STRIPED|
+2. | TWO   | GREEN| OVAL    | EMPTY  |
+3. | TWO   | GREEN| SQUIGGLE| EMPTY  |
+4. | TWO   | RED  | SQUIGGLE| STRIPED|
+################### Result ###################: NO SET PRESENT
+Ashwini-Rao:Home$ java -jar set.jar 
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.3.RELEASE)
+
+Please enter any one of the options below to proceed (1,2 or 3): 
+[1] - Check if three cards are a set 
+[2] - Check if there is a set present in a board of cards 
+[3] - Play a sample set game !! 
+2
+################### Enter number of cards on the boards to check a set from (at least three cards required) : ###################
+7
+################### Enter card 1 details : ###################
+Enter card color [0 (for red), 1(for green), 2 (for purple)]: 
+1
+Enter card number [0 (for one), 1(for two), 2 (for three)]: 
+1
+Enter card shape [0 (for diamond), 1(for squiggle), 2 (for oval)]: 
+2
+Enter card shade [0 (for solid), 1(for empty), 2 (for striped)]: 
+1
+################### Enter card 2 details : ###################
+Enter card color [0 (for red), 1(for green), 2 (for purple)]: 
+1 
+Enter card number [0 (for one), 1(for two), 2 (for three)]: 
+0
+Enter card shape [0 (for diamond), 1(for squiggle), 2 (for oval)]: 
+0
+Enter card shade [0 (for solid), 1(for empty), 2 (for striped)]: 
+0
+################### Enter card 3 details : ###################
+Enter card color [0 (for red), 1(for green), 2 (for purple)]: 
+0
+Enter card number [0 (for one), 1(for two), 2 (for three)]: 
+0
+Enter card shape [0 (for diamond), 1(for squiggle), 2 (for oval)]: 
+0
+Enter card shade [0 (for solid), 1(for empty), 2 (for striped)]: 
+0
+################### Enter card 4 details : ###################
+Enter card color [0 (for red), 1(for green), 2 (for purple)]: 
+1
+Enter card number [0 (for one), 1(for two), 2 (for three)]: 
+1
+Enter card shape [0 (for diamond), 1(for squiggle), 2 (for oval)]: 
+2
+Enter card shade [0 (for solid), 1(for empty), 2 (for striped)]: 
+1
+################### Enter card 5 details : ###################
+Enter card color [0 (for red), 1(for green), 2 (for purple)]: 
+1
+Enter card number [0 (for one), 1(for two), 2 (for three)]: 
+1
+Enter card shape [0 (for diamond), 1(for squiggle), 2 (for oval)]: 
+2
+Enter card shade [0 (for solid), 1(for empty), 2 (for striped)]: 
+1
+################### Enter card 6 details : ###################
+Enter card color [0 (for red), 1(for green), 2 (for purple)]: 
+1
+Enter card number [0 (for one), 1(for two), 2 (for three)]: 
+1
+Enter card shape [0 (for diamond), 1(for squiggle), 2 (for oval)]: 
+2
+Enter card shade [0 (for solid), 1(for empty), 2 (for striped)]: 
+1
+################### Enter card 7 details : ###################
+Enter card color [0 (for red), 1(for green), 2 (for purple)]: 
+2
+Enter card number [0 (for one), 1(for two), 2 (for three)]: 
+0
+Enter card shape [0 (for diamond), 1(for squiggle), 2 (for oval)]: 
+1
+Enter card shade [0 (for solid), 1(for empty), 2 (for striped)]: 
+0
+################### Entered input cards : ###################
+   _________________________________
+   | Number| Color | Shape   | Shade|
+   |================================|
+1. | TWO   | GREEN | OVAL    | EMPTY|
+2. | ONE   | GREEN | DIAMOND | SOLID|
+3. | ONE   | RED   | DIAMOND | SOLID|
+4. | TWO   | GREEN | OVAL    | EMPTY|
+5. | TWO   | GREEN | OVAL    | EMPTY|
+6. | TWO   | GREEN | OVAL    | EMPTY|
+7. | ONE   | PURPLE| SQUIGGLE| SOLID|
+################### Result ###################: SET PRESENT
+Ashwini-Rao:Home$ java -jar set.jar 
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.3.RELEASE)
+
+Please enter any one of the options below to proceed (1,2 or 3): 
+[1] - Check if three cards are a set 
+[2] - Check if there is a set present in a board of cards 
+[3] - Play a sample set game !! 
+3
+######################### SET GAME STARTED #########################
+######################### PLAY STARTED #########################
+Cards Fetched : 12
+Play Cards : 
+    ___________________________________
+    | Number| Color | Shape   | Shade  |
+    |==================================|
+ 1. | TWO   | PURPLE| DIAMOND | STRIPED|
+ 2. | TWO   | GREEN | OVAL    | STRIPED|
+ 3. | THREE | PURPLE| DIAMOND | EMPTY  |
+ 4. | THREE | RED   | SQUIGGLE| SOLID  |
+ 5. | TWO   | RED   | DIAMOND | SOLID  |
+ 6. | TWO   | GREEN | DIAMOND | STRIPED|
+ 7. | ONE   | RED   | SQUIGGLE| STRIPED|
+ 8. | TWO   | PURPLE| DIAMOND | SOLID  |
+ 9. | THREE | GREEN | OVAL    | EMPTY  |
+10. | ONE   | RED   | SQUIGGLE| STRIPED|
+11. | THREE | RED   | SQUIGGLE| EMPTY  |
+12. | THREE | GREEN | OVAL    | SOLID  |
+Sets in play retreived : 
+   _________________________________
+   | Number| Color | Shape   | Shade|
+   |================================|
+1. | THREE | PURPLE| DIAMOND | EMPTY|
+2. | THREE | RED   | SQUIGGLE| EMPTY|
+3. | THREE | GREEN | OVAL    | EMPTY|
+   ___________________________________
+   | Number| Color | Shape   | Shade  |
+   |==================================|
+1. | ONE   | RED   | SQUIGGLE| STRIPED|
+2. | TWO   | PURPLE| DIAMOND | SOLID  |
+3. | THREE | GREEN | OVAL    | EMPTY  |
+   ___________________________________
+   | Number| Color | Shape   | Shade  |
+   |==================================|
+1. | ONE   | RED   | SQUIGGLE| STRIPED|
+2. | THREE | GREEN | OVAL    | EMPTY  |
+3. | TWO   | PURPLE| DIAMOND | SOLID  |
+   ___________________________________
+   | Number| Color | Shape   | Shade  |
+   |==================================|
+1. | TWO   | PURPLE| DIAMOND | SOLID  |
+2. | ONE   | RED   | SQUIGGLE| STRIPED|
+3. | THREE | GREEN | OVAL    | EMPTY  |
+   ___________________________________
+   | Number| Color | Shape   | Shade  |
+   |==================================|
+1. | THREE | GREEN | OVAL    | EMPTY  |
+2. | ONE   | RED   | SQUIGGLE| STRIPED|
+3. | TWO   | PURPLE| DIAMOND | SOLID  |
+Current cards in Deck : 40
+######################### PLAY ENDED #########################
+######################### PLAY STARTED #########################
+Cards Fetched : 12
+Play Cards : 
+    ___________________________________
+    | Number| Color | Shape   | Shade  |
+    |==================================|
+ 1. | TWO   | RED   | DIAMOND | SOLID  |
+ 2. | TWO   | GREEN | DIAMOND | STRIPED|
+ 3. | THREE | GREEN | SQUIGGLE| SOLID  |
+ 4. | ONE   | GREEN | DIAMOND | SOLID  |
+ 5. | TWO   | GREEN | SQUIGGLE| EMPTY  |
+ 6. | ONE   | GREEN | SQUIGGLE| STRIPED|
+ 7. | ONE   | GREEN | SQUIGGLE| STRIPED|
+ 8. | THREE | PURPLE| DIAMOND | EMPTY  |
+ 9. | TWO   | RED   | OVAL    | SOLID  |
+10. | THREE | RED   | OVAL    | STRIPED|
+11. | THREE | GREEN | OVAL    | EMPTY  |
+12. | THREE | RED   | SQUIGGLE| STRIPED|
+Sets in play retreived : 
+   __________________________________
+   | Number| Color| Shape   | Shade  |
+   |=================================|
+1. | THREE | GREEN| SQUIGGLE| SOLID  |
+2. | TWO   | GREEN| SQUIGGLE| EMPTY  |
+3. | ONE   | GREEN| SQUIGGLE| STRIPED|
+   ___________________________________
+   | Number| Color | Shape   | Shade  |
+   |==================================|
+1. | THREE | GREEN | SQUIGGLE| SOLID  |
+2. | THREE | PURPLE| DIAMOND | EMPTY  |
+3. | THREE | RED   | OVAL    | STRIPED|
+   ___________________________________
+   | Number| Color | Shape   | Shade  |
+   |==================================|
+1. | ONE   | GREEN | SQUIGGLE| STRIPED|
+2. | THREE | PURPLE| DIAMOND | EMPTY  |
+3. | TWO   | RED   | OVAL    | SOLID  |
+   ___________________________________
+   | Number| Color | Shape   | Shade  |
+   |==================================|
+1. | ONE   | GREEN | SQUIGGLE| STRIPED|
+2. | THREE | PURPLE| DIAMOND | EMPTY  |
+3. | TWO   | RED   | OVAL    | SOLID  |
+   ___________________________________
+   | Number| Color | Shape   | Shade  |
+   |==================================|
+1. | THREE | PURPLE| DIAMOND | EMPTY  |
+2. | TWO   | RED   | OVAL    | SOLID  |
+3. | ONE   | GREEN | SQUIGGLE| STRIPED|
+Current cards in Deck : 28
+######################### PLAY ENDED #########################
+######################### PLAY STARTED #########################
+Cards Fetched : 12
+Play Cards : 
+    ___________________________________
+    | Number| Color | Shape   | Shade  |
+    |==================================|
+ 1. | TWO   | PURPLE| SQUIGGLE| STRIPED|
+ 2. | TWO   | GREEN | DIAMOND | STRIPED|
+ 3. | THREE | PURPLE| DIAMOND | SOLID  |
+ 4. | ONE   | RED   | OVAL    | SOLID  |
+ 5. | TWO   | GREEN | SQUIGGLE| STRIPED|
+ 6. | THREE | PURPLE| SQUIGGLE| STRIPED|
+ 7. | ONE   | PURPLE| SQUIGGLE| SOLID  |
+ 8. | ONE   | RED   | SQUIGGLE| STRIPED|
+ 9. | ONE   | RED   | OVAL    | SOLID  |
+10. | THREE | PURPLE| DIAMOND | SOLID  |
+11. | ONE   | RED   | SQUIGGLE| EMPTY  |
+12. | TWO   | PURPLE| OVAL    | EMPTY  |
+Sets in play retreived : 
+   ___________________________________
+   | Number| Color | Shape   | Shade  |
+   |==================================|
+1. | TWO   | GREEN | SQUIGGLE| STRIPED|
+2. | ONE   | RED   | SQUIGGLE| STRIPED|
+3. | THREE | PURPLE| SQUIGGLE| STRIPED|
+Current cards in Deck : 16
+######################### PLAY ENDED #########################
+######################### PLAY STARTED #########################
+Cards Fetched : 12
+Play Cards : 
+    ___________________________________
+    | Number| Color | Shape   | Shade  |
+    |==================================|
+ 1. | ONE   | GREEN | OVAL    | SOLID  |
+ 2. | THREE | RED   | SQUIGGLE| SOLID  |
+ 3. | ONE   | RED   | SQUIGGLE| EMPTY  |
+ 4. | ONE   | RED   | DIAMOND | EMPTY  |
+ 5. | ONE   | PURPLE| OVAL    | EMPTY  |
+ 6. | THREE | RED   | SQUIGGLE| EMPTY  |
+ 7. | ONE   | PURPLE| SQUIGGLE| STRIPED|
+ 8. | THREE | RED   | OVAL    | STRIPED|
+ 9. | THREE | PURPLE| SQUIGGLE| EMPTY  |
+10. | TWO   | GREEN | OVAL    | STRIPED|
+11. | TWO   | PURPLE| DIAMOND | SOLID  |
+12. | ONE   | PURPLE| SQUIGGLE| SOLID  |
+Sets in play retreived : 
+Current cards in Deck : 4
+######################### PLAY ENDED #########################
+######################### PLAY STARTED #########################
+Cards Fetched : 3
+Play Cards : 
+   ________________________________
+   | Number| Color | Shape  | Shade|
+   |===============================|
+1. | ONE   | GREEN | DIAMOND| EMPTY|
+2. | TWO   | PURPLE| OVAL   | SOLID|
+3. | THREE | RED   | OVAL   | EMPTY|
+Sets in play retreived : 
+Current cards in Deck : 1
+######################### PLAY ENDED #########################
+######################### PLAY STARTED #########################
+Cards Fetched : 1
+Play Cards : 
+   ________________________________
+   | Number| Color | Shape  | Shade|
+   |===============================|
+1. | TWO   | PURPLE| DIAMOND| SOLID|
+Sets in play retreived : 
+   ___________________________________
+   | Number| Color | Shape   | Shade  |
+   |==================================|
+1. | ONE   | GREEN | OVAL    | SOLID  |
+2. | ONE   | PURPLE| SQUIGGLE| STRIPED|
+3. | ONE   | RED   | DIAMOND | EMPTY  |
+   _________________________________
+   | Number| Color | Shape   | Shade|
+   |================================|
+1. | ONE   | RED   | SQUIGGLE| EMPTY|
+2. | ONE   | GREEN | DIAMOND | EMPTY|
+3. | ONE   | PURPLE| OVAL    | EMPTY|
+Current cards in Deck : 0
+######################### PLAY ENDED #########################
+######################### SET GAME COMPLETED #########################
+######################### THANKS FOR PLAYING !! #########################
+
+
