@@ -1,9 +1,9 @@
 ####################################################################################
-# Card Game Set Application README Documentation
+# Card Game Set Application
 ####################################################################################
 
 
--Card Game Set Description
+## Description
 
 
 The Card Game Set is a card game where a group of players try to identify a "set" of cards from those placed
